@@ -7,6 +7,7 @@ export const homeObjOne = {
     headline: 'Unlimited Transactions with Zero Fees',
     description: 'Get access to our exclusive app that allows you to send unlimited transection without gettiong charged any fees.',
     buttonLabel: 'Get Started',
+    imgStart: false,
     img: require('../../images/svg-0.svg'),
     alt: 'Car',
     dark: true,
