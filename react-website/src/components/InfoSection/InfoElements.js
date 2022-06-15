@@ -25,7 +25,7 @@ export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
-    grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1` : `'col1 col2'`};
+    grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
@@ -65,7 +65,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-height: 600;
-    // lightText (?) kalau (true) maka return value '#f7f8fa'. kalau false, return '#010606'
+// lightText (?) kalau (true) maka return value '#f7f8fa'. kalau false, return '#010606'
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
     @media screen and (max-width: 480px) {
