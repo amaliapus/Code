@@ -2,8 +2,10 @@ import React from 'react'
 
 const SigninPage = () => {
     return (
-        <div>SigninPage</div>
-    )
-}
+        <div>
+            <h1>Sign in page</h1>
+        </div>
+    );
+};
 
-export default SigninPage
+export default SigninPage;
