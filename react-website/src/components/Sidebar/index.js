@@ -1,3 +1,4 @@
+// SIDEBAR KE BAWAH (TAMPILAN MOBILE)
 import React from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
 
