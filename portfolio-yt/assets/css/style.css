@@ -3,7 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
 :root {
     --header-height: 3rem;
+    /*========== Colors ==========*/
+    /* Change favorite color */
     --hue-color: 250;
+    /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
     --first-color: hsl(var(--hue, --color) 69%, 61%);
     --first-color-second: hsl(var(--hue, --color) 69%, 61%);
     --first-color-alt: hsl(var(--hue, --color) 57%, 53%);
@@ -16,6 +20,7 @@
     --container-color: #fff;
     /* font &typogrraphy */
     --body-font: 'Poppins', sans-serif;
+    /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -102,7 +107,7 @@ img {
 /* reusable css classes */
 
 .section {
-    padding: 2rem 0 4 rem;
+    padding: 2rem 0 4rem;
 }
 
 .section__title {
