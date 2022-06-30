@@ -610,7 +610,7 @@ img {
     transform: translate(6px, -7px);
 }
 
-.qualification__contentdata-content] {
+.qualification__content[data-content] {
     display: none;
 }
 
@@ -718,6 +718,11 @@ img {
 
 
 /* Active Modal */
+
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
 
 
 /*==================== PORTFOLIO ====================*/
